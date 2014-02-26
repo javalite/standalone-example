@@ -1,4 +1,5 @@
-This is a simple standalone example using ActibeJDBC.
+# Simple standalone example using ActibeJDBC
+(no Ant or Maven used)
 Usage:
 
 1. Execute create.sql against your DB - this will create a table. 
