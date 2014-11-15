@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 
 public class SimpleExample {
     final static Logger logger = LoggerFactory.getLogger(SimpleExample.class);
-
     public static void main(String[] args) {
         Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost/test", "root", "p@ssw0rd");
 
@@ -52,13 +51,10 @@ public class SimpleExample {
     }
 
     private static void deleteAllEmployees() {
-        Employee.deleteAll();
+            Employee.deleteAll();
     }
 
     private static void selectAllEmployees() {
-        System.out.println("Java8 start>>>");
-        Employee.findAll().stream().forEach(System.out::println);
-        System.out.println("Java8 end<<<");
-        logger.info("Employees list: " + Employee.findAll());
+            logger.info("Employees list: " + Employee.findAll());
     }
 }
