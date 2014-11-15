@@ -18,7 +18,7 @@ Steps to reproduce the issue:
 
 *  Execute script `run-dymanic-instrumentation.sh`, and see that you are getting an exception below:
 
-
+```
     ./run-dynamic-instrumentation.sh
     [main] INFO activejdbc.examples.simple.SimpleExample - =========> Created employee:
     [main] INFO activejdbc.examples.simple.SimpleExample - Model: activejdbc.examples.simple.Employee, table: 'employees', attributes: {last_name=Doe, id=54, first_name=John}
@@ -30,6 +30,7 @@ Steps to reproduce the issue:
     Caused by: java.lang.NoClassDefFoundError: Could not initialize class java.lang.invoke.CallSite
         at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:296)
         ... 2 more
+```
 
 ## Execute project with dynamic instrumentation, but remove Java 8 feature
 
