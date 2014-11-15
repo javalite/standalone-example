@@ -1,4 +1,4 @@
-# Simple standalone example using ActibeJDBC
+# Simple standalone example using ActiveJDBC
 
 (no Ant or Maven)
 
