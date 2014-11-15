@@ -1,4 +1,4 @@
-# Simple standalone example using ActiveJDBC
+# Simple standalone example using ActibeJDBC
 (no Ant or Maven)
 
 This branch was created to show the issue we are having with dynamic instrumentation and Java 8.
