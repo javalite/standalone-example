@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # This script is an example of running instrumentation without Maven or Ant, just a simple command line.
 #
